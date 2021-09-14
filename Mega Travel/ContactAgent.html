@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>Mega Travel</title> 
+		<meta charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<style type="text/css">
+*   {
+    margin: 0;
+    padding: 0;
+    }
+
+@media (min-width: 768px) 
+    {
+        header {
+        align-items: center;
+        display: flex;
+                }
+nav {
+    background: transparent;
+    margin-top: 0;
+    margin-left: 30px;
+    }
+nav a 
+    {
+    color: black;
+    }
+nav a:hover 
+    {
+    text-decoration: underline;
+    color: black;
+    }
+.intro 
+    {
+    width: 50%;
+    }
+.product-cards  
+    {
+    display: grid;  
+    grid-template-columns: auto auto auto auto;
+    }
+.product-card 
+    {
+    display: inline-block;
+    }
+}
+
+
+
+body 
+    {
+    font-family: sans-serif;
+    margin: 0 auto;
+    }
+header 
+{
+
+
+}
+
+
+/* your styles will go here */
+
+/* 3.03 breadcrumb https://stackoverflow.com/questions/32188724/bootstrap-breadcrumb-vertical-center*/
+.breadcrumb 
+    {
+    display: flex;
+    text-align: center;
+    list-style: none;
+    }
+.breadcrumb li 
+    {
+    padding: 10px;
+    }
+.breadcrumb li:after    
+    {
+    margin-left: 20px;
+    }
+.breadcrumb li:last-child:after 
+    {
+    content: '';
+    }
+.breadcrumb a 
+    {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    }
+.breadcrumb a:hover 
+    {
+    text-decoration: underline;
+    }
+/* 3.04 page heading & intro */
+.intro 
+    {
+    margin: 30px 0;
+    padding-left: 10px;
+    width: 50%;
+    }
+.intro h1 
+    {
+    margin-bottom: 15px;
+    }
+.intro p 
+    {
+    line-height: 1.5;
+    }
+
+
+.center 
+    {
+    text-align: center;
+    list-style-position: inside;
+    }
+
+
+</style>
+
+</head>
+<body>
+<header>
+    <img src="site files/mega travel logo.png"
+    alt="Mega Logo" />
+</header>
+
+<section>
+<!-- breadcrumb will go here -->
+
+    <ol class="breadcrumb  align="center"">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="AboutUs.html">About Us</a></li>
+        <li><a href="ContactAgent.html">Contact Agent</a></li>
+    </ol>
+
+</section>
+<!-- introduction section will go here -->
+<section class="intro">
+    <h1>Contact an Agent</h1>
+    <p>
+        We would love to know more about your travel plans.  Please fill out this contact form to get in touch with a travel agent.
+    </p>
+</section>
+</body>
+<footer> 
+<div class="footerHeader" ></div> 
+<div class="container" id="myfooter" style="background-color: #000000"> 
+
+Copyright Protected. All rights reserved.
+
+MEGA TRAVELS
+mega@travels.com 
+</div>
+</footer> 
+</html>
